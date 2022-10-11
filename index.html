@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Local storage demo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Local storage demo</h1>
+</header>
+<hr>
+<main>
+    <form id="form_names">
+        <div>
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name">
+        </div>
+        <div>
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name">
+        </div>
+        <div>
+            <label for="patronymic">Patronymic</label>
+            <input type="text" id="patronymic">
+        </div>
+        <div>
+            <button type="submit">Save</button>
+            <button type="button" id="load_button">Load</button>
+            <button type="reset">Clear</button>
+        </div>
+    </form>
+</main>
+
+<script src="storage.js"></script>
+</body>
+</html>

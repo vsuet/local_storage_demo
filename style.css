@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 16pt;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0.5rem 0;
+}
+
+main {
+    margin: 1rem;
+}
+
+form {
+    padding: 1rem;
+}
+
+form>div {
+    display: flex;
+    flex-direction: row;
+
+    margin: 5px;
+    padding: 3px;
+}
+
+label {
+    width: 150px;
+    margin-right: 1rem;
+}
+input {
+    display: block;
+}
+
+button {
+    margin: 7px;
+    width: 100px;
+}
